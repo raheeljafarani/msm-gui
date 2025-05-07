@@ -51,7 +51,7 @@ class ActorsController < ApplicationController
     the_actor.name = params.fetch("the_name")
     the_actor.dob = params.fetch("the_dob")
     the_actor.bio = params.fetch("the_bio")
-    the_movie.image = params.fetch("the_image")
+    the_actor.image = params.fetch("the_image")
 
     # Save
 
